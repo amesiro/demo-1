@@ -1,0 +1,181 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    z-index: 5;
+    box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19)
+}
+
+.mainpage-title{
+    background-color: aquamarine;
+    width: 600px;
+}
+
+img{
+    width: 100%;
+}
+
+.mplink{
+    display: flex;
+    width: 400px;
+    justify-content: space-around;
+    margin-right: 30px
+}
+
+.mplink-kid{
+    font-size: 24px;
+    color: rgb(47,140,140);
+}
+
+.mplink-kid:hover{/* hover鼠標懸停時的顏色改變 */
+    color: aquamarine;
+    cursor: pointer; /* cursor 滑鼠懸停時的樣式*/
+}
+
+body{
+    margin: 0;
+    height: auto;
+}
+
+.secteion-1{
+    padding-top: 160px;
+}
+
+.sec-a{
+    position: relative;
+}
+
+.sec-b{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.secteion-2{
+    margin-bottom: 50px;
+}
+
+.sec-b1{
+    font-size: 48px;
+    color: rgb(255,255,255);
+    width: 600px;
+    align-items: center;
+    text-shadow: 0.05em 0.05em rgb(113, 133, 135);
+    text-align: center;
+}
+
+.sec-b2{
+    color: rgb(255,255,255);
+    background-color: rgb(65,191,198);
+    font-size: 32px;
+    width: 160px;
+    height: 60px;
+    border-radius: 5%;
+    margin: 10px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.title-main {
+    font-size: 40px;
+    color: black;
+    text-align: center;
+    margin-top: 20px;
+}
+.text-sub{
+    color: rgb(47,140,140);
+}
+.secteion-3{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+.img-og{
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    background-size: cover;
+}
+
+.img-3-1{
+    background-image: url("./beach.jfif");
+}
+
+.img-3-2{
+    background-image: url("./mountains.jpg");
+}
+
+.img-3-3{
+    background-image: url("./images.jfif");
+}
+
+.text-3{
+    font-size: 40px;
+    color: black;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.sec-3{
+    width: 300px;
+}
+
+.text-4{
+    font-size: 18px;
+    min-height: 70px;
+}
+
+.text-5{
+    color: rgb(255,255,255);
+    background-color: rgb(65,191,198);
+    font-size: 32px;
+    width: 160px;
+    height: 60px;
+    border-radius: 5%;
+    margin: 10px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.secteion-end{
+    width: 100%;
+    background-color: rgb(220,217,217);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 70px;
+}
+
+.secteion-end-sub{
+    width: 600px;
+    margin: 10px auto;
+}
+
+.secteion-end-contact{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.secteion-end-1{
+    width: 1200px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.sec-e-c{
+    cursor: pointer;
+}
