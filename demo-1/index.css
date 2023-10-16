@@ -108,15 +108,15 @@ body{
 }
 
 .img-3-1{
-    background-image: url("./beach.jfif");
+    background-image: url("./img/beach.jfif");
 }
 
 .img-3-2{
-    background-image: url("./mountains.jpg");
+    background-image: url("./img/mountains.jpg");
 }
 
 .img-3-3{
-    background-image: url("./images.jfif");
+    background-image: url("./img/images.jfif");
 }
 
 .text-3{
@@ -181,5 +181,5 @@ body{
 }
 
 .logo-1{
-    height: 90px;
+    height: 160px;
 }
